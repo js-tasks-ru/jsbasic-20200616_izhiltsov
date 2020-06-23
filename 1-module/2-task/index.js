@@ -5,11 +5,10 @@ function print(text) {
 
 
 function isValid(name) {
-  if (name.length >= 4 && !(name.includes(' '))){
+  if (name.length >= 4 && !(name.includes(' '))) {
     return true;
-  } else {
-      return false;
-  }
+  } 
+  return false;
 }
 
 function sayHello() {
